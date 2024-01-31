@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4faff;
+  min-height: 100 vh;
+}
+.card-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 40 px;
+}
+.heading {
+  font-size: 40 px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #171f46;
+  text-align: center;
+}
+.description {
+  font-size: 18 px;
+  text-align: center;
+  color: #64748b;
+  max-width: 625 px;
+  margin-top: 24px;
+}
+.cardLlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 32 px;
+  max-width: 1140 px;
+  padding-left: 0px;
+}
